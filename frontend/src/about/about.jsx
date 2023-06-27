@@ -1,9 +1,12 @@
 import React from "react";
 
+import PageHeader from "../template/pageHeader";
+
 export default function About() {
     return (
         <div>
-            <h1>Sobre</h1>
+            <PageHeader name='Sobre' small='Nós'></PageHeader>
+            <p>Um aplicação To do List desenvolvido com React.</p>
         </div>
     )
 }
